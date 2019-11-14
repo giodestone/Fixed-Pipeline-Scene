@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Base Classes">
+      <UniqueIdentifier>{c442e786-1e1a-4064-9628-5f5d4152c654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes\Event System">
+      <UniqueIdentifier>{1c08031c-3d10-4ad0-a925-cd02ec6b6035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes\Game Entity">
+      <UniqueIdentifier>{7700c8e8-c4f0-468a-bc76-0d81e7b18f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Classes">
+      <UniqueIdentifier>{e264b912-0a5c-47ec-b33e-81cd03c4d214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Classes\Game Entity">
+      <UniqueIdentifier>{99509f1b-73cd-46ce-9a0e-a85bf1534c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes\Base Game Entities">
+      <UniqueIdentifier>{4cd9d156-9286-4bff-973a-0dccf1767736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Classes\Base Game Entities">
+      <UniqueIdentifier>{da8bf118-d08b-48c9-99d4-a86918635346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes\Data Structures">
+      <UniqueIdentifier>{45b083c3-eb72-476b-9906-9dfa0ec5afba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes\Framework">
+      <UniqueIdentifier>{7d28d4b7-9a85-48e2-b85b-d821e6dd2ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Classes\Framework">
+      <UniqueIdentifier>{0087b866-b1d9-44ec-887c-e106e362d1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes\Camera">
+      <UniqueIdentifier>{82eacae4-df37-4dab-92ff-5d7663dcfce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes\Managers">
+      <UniqueIdentifier>{96618123-8912-4870-9a95-8dd0ed8ce12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Classes\Camera">
+      <UniqueIdentifier>{13051ba2-2941-4ffe-8b88-2bb6e8f35406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Classes\Managers">
+      <UniqueIdentifier>{a313687d-11e8-406e-8434-da08187693c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Classes">
+      <UniqueIdentifier>{9d085710-b4e4-4004-a3ff-ba082c9abfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Classes">
+      <UniqueIdentifier>{f792a0a2-6dc2-4df0-8bc3-e9efe9b32310}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Source Files\Base Classes\Game Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObject.cpp">
+      <Filter>Source Files\Base Classes\Base Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Base Classes\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Base Classes\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Base Classes\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData.cpp">
+      <Filter>Source Files\Base Classes\Base Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntityManager.cpp">
+      <Filter>Source Files\Base Classes\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Base Classes\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomTreeCreator.cpp">
+      <Filter>Source Files\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Dock.cpp">
+      <Filter>Source Files\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectiveWater.cpp">
+      <Filter>Source Files\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TownCentre.cpp">
+      <Filter>Source Files\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ImposterShadowManager.cpp">
+      <Filter>Source Files\Base Classes\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanarShadowManager.cpp">
+      <Filter>Source Files\Base Classes\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Game Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEvent.h">
+      <Filter>Header Files\Base Classes\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="EventEmitter.h">
+      <Filter>Header Files\Base Classes\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObserver.h">
+      <Filter>Header Files\Base Classes\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header Files\Base Classes\Game Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>Header Files\Base Classes\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>Header Files\Base Classes\Base Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Base Classes\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Base Classes\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Base Classes\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntityManager.h">
+      <Filter>Header Files\Base Classes\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Base Classes\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialData.h">
+      <Filter>Header Files\Base Classes\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomTreeCreator.h">
+      <Filter>Header Files\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Dock.h">
+      <Filter>Header Files\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveWater.h">
+      <Filter>Header Files\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TownCentre.h">
+      <Filter>Header Files\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanarShadowManager.h">
+      <Filter>Header Files\Base Classes\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImposterShadowManager.h">
+      <Filter>Header Files\Base Classes\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Credits.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Notes To Add To Submission.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

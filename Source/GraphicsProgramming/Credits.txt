@@ -1,0 +1,23 @@
+=====Elements of Base Framework=====
+Paul Robertson (lecturer)
+
+=====Elements in ShadowManager class=====
+Paul Robertson (lecturer)
+
+=====For the skybox=====
+https://opengameart.org/content/clouds-skybox-1
+
+=====World Map Texture======
+https://geology.com/world/world-map.shtml
+
+=====House and House Textures=====
+https://opengameart.org/content/ordinary-house
+
+=====Lighthouse Texture=====
+Me
+
+=====Mountain texture=====
+Me
+
+=====Plank Texture=====
+https://opengameart.org/content/seamless-planks

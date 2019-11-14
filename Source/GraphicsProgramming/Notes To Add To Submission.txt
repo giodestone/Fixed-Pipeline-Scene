@@ -1,0 +1,15 @@
+1. Mention that the reason some of the values are layed out in such a way (e.g. drawing the sphere) is to make the code readable.
+2. Reason that unqiue_ptr was used instead of shared pointer was because at the time there were plans of structring the code differently - 'unloading' objects etc.
+
+3. The Load method exists as a way of loading stuff to the game that requires loading during runtime.
+
+4. Lights are handled in the gameentitymanager as they make the day night cycle easier.
+ 
+5. The wireframe is static because of the transparent town square thingy needing it.
+
+6. Light parameters are set every frame because they didn't work otherwise for some reason.
+
+==Improvmenets==
+1. Could've added a component system for mesh etc. (a lot how unity does it).
+2. Could've added a helper draw function that simply took the static draw thingy and drew it depending on the variables passed in.
+3. Probably a drawable base class coudld've fixed the above
