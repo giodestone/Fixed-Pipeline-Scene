@@ -5,7 +5,7 @@ A 3D scene with procedurally generated shapes, models, reflections, and some sha
 ![GIF of night-time](https://github.com/giodestone/Fixed-Pipeline-Scene/blob/master/Images/GIF.gif)
 
 # Running
-[Download Here](https://github.com/giodestone/Fixed-Pipeline-Scene/releases) Or alternatively clone the repository and look inside of the Executable/ folder.
+[Download Here](https://github.com/giodestone/Fixed-Pipeline-Scene/releases), or alternatively clone the repository and look inside of the Executable/ folder.
 
 ## Controls
 * W, S, A, D for movement.
