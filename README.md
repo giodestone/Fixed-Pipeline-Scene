@@ -1,5 +1,5 @@
 # Fixed Pipeline Scene
-A 3D scene with procedurally generated shapes, models, reflections, and some shadows made using the fixed function (OpenGL 1.x) pipeline. Created for one of my modules in the first year of University.
+A 3D scene with procedurally generated shapes, models, reflections, and some shadows made using the fixed function (OpenGL 1.x) pipeline. Created as coursework for a module in my first year of university.
 
 ![Image of scene](https://github.com/giodestone/Fixed-Pipeline-Scene/blob/master/Images/Image1.jpg)
 ![GIF of night-time](https://github.com/giodestone/Fixed-Pipeline-Scene/blob/master/Images/GIF.gif)
